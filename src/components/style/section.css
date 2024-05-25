@@ -184,6 +184,7 @@ p{
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  margin-right: 8px;
 }
 
 .empty-bucket-y-button:hover {
@@ -214,6 +215,15 @@ p{
   .jar {
     width: 100px;
     height: 200px;
+  }
+  .fill-bucket-x-button,
+  .fill-bucket-y-button,
+  .transfer-to-bucket-y-button,
+  .transfer-from-bucket-y-to-x-button,
+  .empty-bucket-x-button,
+  .empty-bucket-y-button {
+    margin-right: 8px;
+    margin-bottom: 16px;
   }
 }
 
