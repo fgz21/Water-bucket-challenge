@@ -9,7 +9,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 120vh;
   background-color: #324E84;
 }
 
@@ -220,20 +220,22 @@ p{
 
 
 /* Móvil (mobile) */
-@media (max-width: 767px) {
+@media (max-width: 640px) {
   .input-container {
-    width: 90%; /* Aumenté el ancho a 90% para que sea más visible en pantallas pequeñas */
+    width: 90%; 
   }
   .jar {
     width: 80px;
     height: 150px;
   }
   .jars-container {
-    flex-direction: column;
-    align-items: center; /* Centrar los elementos verticalmente */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
   }
   .jars-container h3 {
-    margin-top: 16px; 
+    margin-top: 10px; 
   }
   .fill-bucket-x-button,
   .fill-bucket-y-button,
@@ -241,7 +243,7 @@ p{
   .transfer-from-bucket-y-to-x-button,
   .empty-bucket-x-button,
   .empty-bucket-y-button {
-    margin-right: 0;
+    margin-right: 8px;
     margin-bottom: 16px;
   }
 }
