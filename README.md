@@ -9,4 +9,6 @@ This React component simulates a water bucket game, where the user can fill, emp
 
 - Install the dependencies of the cloned project using the npm install command in the terminal, while you are in the project's root folder.
 
-- Once the dependencies are installed, you can start the development server using the npm run dev command.
+- Once the dependencies are installed, you can start the development server using the npm run preview command.
+
+Thank you! for view my project
