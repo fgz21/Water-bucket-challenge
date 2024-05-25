@@ -1,0 +1,47 @@
+/* jar.css */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* espacio entre el input y la jarra */
+}
+
+.jar {
+  position: relative;
+  width: 100px;
+  height: 200px;
+  background-color: #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.jar-body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+.jar-fluid {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0%; /* inicialmente la altura es 0% */
+  background-color: #007bff;
+  transition: height 0.3s ease;
+}
+
+.jar-handle {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

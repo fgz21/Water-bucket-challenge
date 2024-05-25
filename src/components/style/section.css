@@ -1,0 +1,191 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #324E84;
+}
+
+.input-container {
+  width: 50%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ccc;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background: #ccc;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+input[type="text"]:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#myInput{
+  background: #fff;
+  color: blue;
+}
+
+.jars-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.jars-container h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+
+p{
+  color: white;
+}
+
+
+.jar {
+  background-color: #ccc; 
+  border: 1px solid #ddd; 
+  border-radius: 10px; 
+  padding: 20px; 
+  width: 80px; 
+  height: 200px;
+  display: inline-block;
+  margin: 10px;
+}
+
+
+
+
+.fill-bucket-x-button {
+  background-color: #1a73e8; 
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.fill-bucket-x-button:hover {
+  background-color: #3e8e41; 
+}
+
+.fill-bucket-x-button:active {
+  background-color: #3e8e41; 
+}
+
+
+.fill-bucket-y-button {
+  background-color: #1a73e8;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+}
+
+.fill-bucket-y-button:hover {
+  background-color: #3e8e41; 
+}
+
+.fill-bucket-y-button:active {
+  background-color: #0d47a1; 
+}
+
+
+.transfer-to-bucket-y-button {
+  background-color: #1a73e8; 
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 8px;
+}
+
+.transfer-to-bucket-y-button:hover {
+  background-color: #3e8e41; 
+}
+
+.transfer-to-bucket-y-button:active {
+  background-color: #ff9900; 
+}
+
+
+.transfer-from-bucket-y-to-x-button {
+  background-color: #1a73e8; 
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.transfer-from-bucket-y-to-x-button:hover {
+  background-color: #3e8e41; 
+}
+
+.transfer-from-bucket-y-to-x-button:active {
+  background-color: #5c005c; 
+}
+
+.empty-bucket-x-button{
+  background-color: #1a73e8; 
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 8px;
+}
+
+.empty-bucket-x-button:hover {
+  background-color: #3e8e41; 
+}
+
+.empty-bucket-y-button{
+  background-color: #1a73e8; 
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.empty-bucket-y-button:hover {
+  background-color: #3e8e41; 
+}
